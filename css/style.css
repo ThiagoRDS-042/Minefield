@@ -1,0 +1,55 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#container {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, .7);
+    border: 1px solid gray;
+}
+
+img {
+    margin-left: 42.5%;
+}
+
+#top {
+    width: 96%;
+    height: 30%;
+    margin: 2% 0 0 2%;
+}
+
+#center,
+#bottom {
+    width: 96%;
+    height: 30%;
+    margin: 3% 0 0 2%;
+}
+
+button {
+    /* background: url('../icons/0Azul.png'); */
+    width: 31%;
+    height: 100%;
+    outline: none;
+    /* background-color: #efefef;
+    background-repeat: no-repeat;
+    background-position: center; */
+}
+
+.central,
+.rigth {
+    margin-left: 3.5%;
+}
+
+#top button {
+    width: 31%;
+    height: 100%;
+}
+
+#result {
+    text-align: center;
+    width: 300px;
+    float: right;
+    margin: 200px 40px 0 0;
+}
